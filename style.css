@@ -90,6 +90,7 @@ nav a:hover::after{
 
 section {
     padding: 4rem 2rem;
+    maragin: 0px 20px 0px 20px
     text-align: center;
 }
 
@@ -365,3 +366,4 @@ footer {
   #contact a:hover{
     color: #4A4A4A;
   }
+
