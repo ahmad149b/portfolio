@@ -239,9 +239,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .section {
-        maragin: 0px 20px 0px 20px
-    }
+    
     header h1 {
         font-size: 2rem;
     }
@@ -258,8 +256,9 @@ footer {
         font-size: 1.2rem;
     }
 
-    .about, .projects, .contact {
+    .about, .projects, .contact ,about2 {
         padding: 1rem;
+        margin: 0px 20px 0px 20px;    
     }
 
     .projects {
@@ -268,8 +267,9 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .section {
-        maragin: 0px 20px 0px 20px
+    .about, .projects, .contact ,about2 {
+        padding: 1rem;
+        margin: 0px 20px 0px 20px;    
     }
      header h1{
         font-size: 30px ;
@@ -371,6 +371,7 @@ footer {
   #contact a:hover{
     color: #4A4A4A;
   }
+
 
 
 
